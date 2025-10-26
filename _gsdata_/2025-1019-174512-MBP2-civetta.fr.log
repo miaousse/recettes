@@ -1,0 +1,6 @@
+2025-10-19 17:45:16: == Sync démarrée par User Command
+2025-10-19 17:45:16: Start only 1 threads, limited by tasks to run
+2025-10-19 17:45:16: Nouvelle Copie '/Volumes/Miaousse/Users/Miaousse/Downloads/recettes/recettes/muffins.md' -> 'ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes/recettes/muffins.md' (600)
+2025-10-19 17:45:16: Sauvegarde du fichier d'état ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes/_gsdata_/_file_state_v4._gs
+2025-10-19 17:45:16: Sauvegarde du fichier d'état /Volumes/Miaousse/Users/Miaousse/Downloads/recettes/_gsdata_/_file_state_v4._gs
+2025-10-19 17:45:17: == Sync terminée. Temps : 00:00:01, Vitesse : 0,00/s, Elements synchronisés : 1, Erreurs : 0

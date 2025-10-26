@@ -1,0 +1,99 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin: 2rem auto;
+  max-width: 900px;
+  background: linear-gradient(135deg, #ff0080, #7928ca, #ff0080);
+  color: white;
+  text-shadow: 2px 2px 8px #000;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 0 30px #ff0080, 0 0 60px #7928ca inset;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  text-shadow: 3px 3px 10px #ff80bf;
+  margin-bottom: 2rem;
+  animation: neonGlow 2s ease-in-out infinite alternate;
+}
+
+nav {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav button {
+  background: radial-gradient(circle at top left, #ff80bf, #cc3399);
+  border: 3px solid #ff33cc;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0.5rem;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  box-shadow: 0 0 15px #ff33cc, 0 0 30px #cc3399 inset;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+nav button:hover {
+  background: #ff33cc;
+  box-shadow: 0 0 25px #ff99ff, 0 0 40px #ff33cc inset;
+  transform: scale(1.1);
+  text-shadow: 0 0 10px #fff;
+}
+
+article {
+  background: rgba(255, 0, 128, 0.2);
+  border: 2px solid #ff33cc;
+  border-radius: 20px;
+  box-shadow: 0 0 40px #ff33cc inset;
+  padding: 2rem;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  min-height: 300px;
+  transition: background 0.5s ease;
+}
+
+article p {
+  text-shadow: 1px 1px 3px #000;
+}
+
+article a {
+  color: #ff80bf;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+article a:hover {
+  text-decoration: underline;
+  color: #ffe6ff;
+}
+
+@keyframes neonGlow {
+  from {
+    text-shadow:
+      0 0 5px #ff80bf,
+      0 0 10px #ff80bf,
+      0 0 20px #ff80bf,
+      0 0 40px #ff33cc,
+      0 0 80px #ff33cc,
+      0 0 90px #ff33cc;
+  }
+  to {
+    text-shadow:
+      0 0 10px #ff33cc,
+      0 0 15px #ff33cc,
+      0 0 30px #ff33cc,
+      0 0 50px #ff80bf,
+      0 0 90px #ff80bf,
+      0 0 100px #ff80bf;
+  }
+}

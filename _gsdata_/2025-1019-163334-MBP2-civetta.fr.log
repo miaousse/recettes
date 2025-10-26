@@ -1,0 +1,17 @@
+2025-10-19 16:33:38: == Sync démarrée par User Command
+2025-10-19 16:33:39: GsConnectAndSetRoot1 connected to ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes
+2025-10-19 16:33:39: ConnectCloned connected to file:///Volumes/Miaousse/Users/Miaousse/Downloads/recettes
+2025-10-19 16:33:39: GsConnectAndSetRoot1 connected to ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes
+2025-10-19 16:33:39: ConnectCloned connected to file:///Volumes/Miaousse/Users/Miaousse/Downloads/recettes
+2025-10-19 16:33:39: GsConnectAndSetRoot1 connected to ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes
+2025-10-19 16:33:39: ConnectCloned connected to file:///Volumes/Miaousse/Users/Miaousse/Downloads/recettes
+2025-10-19 16:33:39: Nouvelle Copie '/Volumes/Miaousse/Users/Miaousse/Downloads/recettes/cake banane.html' -> 'ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes/cake banane.html' (3,101)
+2025-10-19 16:33:40: Nouvelle Copie '/Volumes/Miaousse/Users/Miaousse/Downloads/recettes/gateau pommes.html' -> 'ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes/gateau pommes.html' (4,438)
+2025-10-19 16:33:40: Nouvelle Copie '/Volumes/Miaousse/Users/Miaousse/Downloads/recettes/mousse.html' -> 'ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes/mousse.html' (3,910)
+2025-10-19 16:33:40: Nouvelle Copie '/Volumes/Miaousse/Users/Miaousse/Downloads/recettes/muffin3.html' -> 'ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes/muffin3.html' (5,669)
+2025-10-19 16:33:40: Nouvelle Copie '/Volumes/Miaousse/Users/Miaousse/Downloads/recettes/muffins.htm' -> 'ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes/muffins.htm' (5,323)
+2025-10-19 16:33:40: Nouvelle Copie '/Volumes/Miaousse/Users/Miaousse/Downloads/recettes/muffins.html' -> 'ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes/muffins.html' (5,855)
+2025-10-19 16:33:40: Nouvelle Copie '/Volumes/Miaousse/Users/Miaousse/Downloads/recettes/nuggets.html' -> 'ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes/nuggets.html' (2,499)
+2025-10-19 16:33:41: Sauvegarde du fichier d'état ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes/_gsdata_/_file_state_v4._gs
+2025-10-19 16:33:41: Sauvegarde du fichier d'état /Volumes/Miaousse/Users/Miaousse/Downloads/recettes/_gsdata_/_file_state_v4._gs
+2025-10-19 16:33:41: == Sync terminée. Temps : 00:00:02, Vitesse : 0,00/s, Elements synchronisés : 7, Erreurs : 0

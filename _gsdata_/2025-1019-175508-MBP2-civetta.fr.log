@@ -1,0 +1,13 @@
+2025-10-19 17:55:35: == Sync démarrée par User Command
+2025-10-19 17:55:35: GsConnectAndSetRoot1 connected to ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes
+2025-10-19 17:55:35: ConnectCloned connected to file:///Volumes/Miaousse/Users/Miaousse/Downloads/recettes
+2025-10-19 17:55:35: GsConnectAndSetRoot1 connected to ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes
+2025-10-19 17:55:35: ConnectCloned connected to file:///Volumes/Miaousse/Users/Miaousse/Downloads/recettes
+2025-10-19 17:55:35: GsConnectAndSetRoot1 connected to ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes
+2025-10-19 17:55:35: ConnectCloned connected to file:///Volumes/Miaousse/Users/Miaousse/Downloads/recettes
+2025-10-19 17:55:36: Ecrasement '/Volumes/Miaousse/Users/Miaousse/Downloads/recettes/index.html' -> 'ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes/index.html' (497)
+2025-10-19 17:55:36: Suppression du fichier ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes/list_recipes.php
+2025-10-19 17:55:36: Nouvelle Copie '/Volumes/Miaousse/Users/Miaousse/Downloads/recettes/php/list_recipes.php' -> 'ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes/php/list_recipes.php' (333)
+2025-10-19 17:55:36: Sauvegarde du fichier d'état ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes/_gsdata_/_file_state_v4._gs
+2025-10-19 17:55:36: Sauvegarde du fichier d'état /Volumes/Miaousse/Users/Miaousse/Downloads/recettes/_gsdata_/_file_state_v4._gs
+2025-10-19 17:55:37: == Sync terminée. Temps : 00:00:02, Vitesse : 0,00/s, Elements synchronisés : 3, Erreurs : 0

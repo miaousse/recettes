@@ -1,0 +1,14 @@
+2025-10-19 18:00:33: == Sync démarrée par User Command
+2025-10-19 18:00:33: GsConnectAndSetRoot1 connected to ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes
+2025-10-19 18:00:33: ConnectCloned connected to file:///Volumes/Miaousse/Users/Miaousse/Downloads/recettes
+2025-10-19 18:00:33: GsConnectAndSetRoot1 connected to ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes
+2025-10-19 18:00:33: ConnectCloned connected to file:///Volumes/Miaousse/Users/Miaousse/Downloads/recettes
+2025-10-19 18:00:33: GsConnectAndSetRoot1 connected to ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes
+2025-10-19 18:00:33: ConnectCloned connected to file:///Volumes/Miaousse/Users/Miaousse/Downloads/recettes
+2025-10-19 18:00:34: Ecrasement '/Volumes/Miaousse/Users/Miaousse/Downloads/recettes/index.html' -> 'ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes/index.html' (655)
+2025-10-19 18:00:34: Nouvelle Copie '/Volumes/Miaousse/Users/Miaousse/Downloads/recettes/css/style-clear.css' -> 'ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes/css/style-clear.css' (861)
+2025-10-19 18:00:34: Nouvelle Copie '/Volumes/Miaousse/Users/Miaousse/Downloads/recettes/css/style-pimp.css' -> 'ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes/css/style-pimp.css' (1,990)
+2025-10-19 18:00:34: Ecrasement '/Volumes/Miaousse/Users/Miaousse/Downloads/recettes/js/script.js' -> 'ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes/js/script.js' (1,873)
+2025-10-19 18:00:34: Sauvegarde du fichier d'état ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes/_gsdata_/_file_state_v4._gs
+2025-10-19 18:00:34: Sauvegarde du fichier d'état /Volumes/Miaousse/Users/Miaousse/Downloads/recettes/_gsdata_/_file_state_v4._gs
+2025-10-19 18:00:35: == Sync terminée. Temps : 00:00:02, Vitesse : 0,00/s, Elements synchronisés : 4, Erreurs : 0

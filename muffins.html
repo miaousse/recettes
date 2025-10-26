@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Muffins Nature - Recette</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto:wght@400;700&display=swap');
+
+  body {
+    background: linear-gradient(135deg, #fceabb, #f8b500);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #4a3c31;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 30px;
+  }
+
+  main {
+    background: #fffdfa;
+    max-width: 700px;
+    padding: 30px 40px 50px 40px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    border-radius: 15px;
+    border: 3px solid #f8b500;
+    position: relative;
+  }
+
+  h1, h2 {
+    font-family: 'Comfortaa', cursive;
+    color: #d46300;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  h1 {
+    font-size: 2.8rem;
+    text-shadow: 1px 1px 1px #f0e1b8;
+  }
+  h2 {
+    font-size: 1.9rem;
+    margin-top: 40px;
+  }
+
+  section {
+    margin-bottom: 25px;
+  }
+
+  ul, ol {
+    margin-left: 20px;
+  }
+
+  ul li, ol li {
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+
+  .source {
+    font-style: italic;
+    font-size: 0.85rem;
+    color: #a87a00;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  /* Button style */
+  button {
+    background-color: #d46300;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 5px 12px rgba(212, 99, 0, 0.6);
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto 40px auto;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  button:hover {
+    background-color: #e68400;
+  }
+
+  /* Light animation for fun */
+  .glow {
+    animation: pulseGlow 2.5s ease-in-out infinite;
+  }
+  @keyframes pulseGlow {
+    0%, 100% {
+      text-shadow:
+        0 0 5px #f8b500,
+        0 0 12px #f8b500,
+        0 0 20px #f8b500,
+        0 0 30px #d46300,
+        0 0 40px #d46300;
+    }
+    50% {
+      text-shadow: none;
+    }
+  }
+
+  /* Layout for ingredient + material */
+  .two-columns {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .column {
+    flex: 1 1 300px;
+  }
+
+  /* Tooltip style */
+  .tooltip {
+    position: relative;
+    border-bottom: 1px dotted #d46300;
+    cursor: help;
+  }
+  .tooltip:hover::after {
+    content: attr(data-tip);
+    position: absolute;
+    left: 50%;
+    bottom: 120%;
+    transform: translateX(-50%);
+    background: #d46300;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 10px;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    z-index: 10;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .tooltip::after {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+</style>
+</head>
+<body>
+
+<main>
+  <h1 class="glow">Muffins Nature</h1>
+
+  <section>
+    <p>Dès la première bouchée, vous allez adorer la texture moelleuse de ces muffins nature. Ils sont tellement faciles à faire que tous ceux qui auront la chance de les déguster voudront avoir la recette. En tout cas, lors d'un pique-nique ou bien d'un goûter entre amis ou en famille, il n'en restera plus une miette.</p>
+  </section>
+
+  <section>
+    <h2>Ingrédients</h2>
+    <ul>
+      <li>350 g de farine</li>
+      <li>100 g de sucre</li>
+      <li>75 g de beurre fondu</li>
+      <li>25 cl de lait</li>
+      <li>2 œufs</li>
+      <li>1 sachet de levure chimique</li>
+      <li>1 pincée de sel</li>
+    </ul>
+  </section>
+
+  <section class="two-columns">
+    <div class="column">
+      <h2>Matériel nécessaire</h2>
+      <ul>
+        <li>Grille de refroidissement</li>
+        <li>Moule à muffins ou à cupcakes</li>
+        <li>Saladier (x2)</li>
+        <li>Caissettes en papier</li>
+      </ul>
+    </div>
+
+    <div class="column">
+      <h2>Conseil du Chef</h2>
+      <p>Voici une variante salée à base de jambon que vous pouvez également essayer.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Préparation</h2>
+    <ol>
+      <li>Préchauffez le four à <span class="tooltip" data-tip="Température idéale pour des muffins moelleux">180°C</span>.</li>
+      <li>Dans un saladier, mélangez grossièrement les œufs, le lait et le beurre fondu.</li>
+      <li>Dans un autre saladier, mélangez la farine, le sucre, le sel et la levure chimique.</li>
+      <li>Versez ensuite le mélange liquide sur le mélange sec.</li>
+      <li>Mélangez le tout avec une cuillère.</li>
+      <li>Déposez des caissettes dans des moules.</li>
+      <li>Remplissez les caissettes aux 3/4.</li>
+      <li>Enfournez-les dans un four préchauffé à 180°C pendant environ 25 minutes.</li>
+      <li>A la sortie du four, déposez-les sur une grille.</li>
+      <li>Laissez-les refroidir.</li>
+      <li>Servez.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Suggestions de garnitures</h2>
+    <ul>
+      <li>De la confiture</li>
+      <li>De la pâte à tartiner</li>
+      <li>De la crème de marrons</li>
+      <li>Des fruits frais (banane)</li>
+      <li>Des fruits secs (amande, noisette)</li>
+    </ul>
+  </section>
+
+  <p class="source">*Source : 750g.com*</p>
+</main>
+
+<script>
+  // Fun interactive feature: highlight ingredient on click with color pulse
+  const ingredientItems = document.querySelectorAll("section:nth-of-type(2) ul li");
+  ingredientItems.forEach(item => {
+    item.style.cursor = 'pointer';
+    item.title = 'Click to highlight';
+    item.addEventListener('click', () => {
+      item.style.transition = 'background-color 0.5s ease';
+      item.style.backgroundColor = '#f8b500';
+      setTimeout(() => {
+        item.style.backgroundColor = '';
+      }, 1200);
+    });
+  });
+</script>
+
+</body>
+</html>

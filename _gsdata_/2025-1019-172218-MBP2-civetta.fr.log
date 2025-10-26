@@ -1,0 +1,7 @@
+2025-10-19 17:22:19: -- Analyse lancée par User Command
+2025-10-19 17:22:19: Gauche : Lecture du fichier d'état ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes/_gsdata_/_file_state_v4._gs
+2025-10-19 17:22:19: Droite : Lecture du fichier d'état /Volumes/Miaousse/Users/Miaousse/Downloads/recettes/_gsdata_/_file_state_v4._gs
+2025-10-19 17:22:19: Gauche : Sur le disque ftp://ftp.cluster014.hosting.ovh.net:21, l'espace requis pour la synchronisation est 1,02 KB, l'espace libre est inconnu.
+2025-10-19 17:22:19: Changements : 2, Conflits : 0, Heure de la Copie : 0, État de la Copie : 0, Erreurs : 0, All: 12
+2025-10-19 17:22:19: Right to Left: Copy File: 2 
+2025-10-19 17:22:19: -- Analyse terminée. Temps 00:00:01, Vitesse : 12 fichiers/s

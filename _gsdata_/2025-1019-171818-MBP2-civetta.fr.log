@@ -1,0 +1,14 @@
+2025-10-19 17:18:24: == Sync démarrée par User Command
+2025-10-19 17:18:25: GsConnectAndSetRoot1 connected to ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes
+2025-10-19 17:18:25: ConnectCloned connected to file:///Volumes/Miaousse/Users/Miaousse/Downloads/recettes
+2025-10-19 17:18:25: GsConnectAndSetRoot1 connected to ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes
+2025-10-19 17:18:25: ConnectCloned connected to file:///Volumes/Miaousse/Users/Miaousse/Downloads/recettes
+2025-10-19 17:18:25: GsConnectAndSetRoot1 connected to ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes
+2025-10-19 17:18:25: ConnectCloned connected to file:///Volumes/Miaousse/Users/Miaousse/Downloads/recettes
+2025-10-19 17:18:26: Ecrasement '/Volumes/Miaousse/Users/Miaousse/Downloads/recettes/gateau pommes.html' -> 'ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes/gateau pommes.html' (3,535)
+2025-10-19 17:18:26: Nouvelle Copie '/Volumes/Miaousse/Users/Miaousse/Downloads/recettes/index.html' -> 'ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes/index.html' (2,051)
+2025-10-19 17:18:26: Création du dossier ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes/recettes
+2025-10-19 17:18:26: Nouvelle Copie '/Volumes/Miaousse/Users/Miaousse/Downloads/recettes/recettes/tarte aux pommes.md' -> 'ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes/recettes/tarte aux pommes.md' (228)
+2025-10-19 17:18:26: Sauvegarde du fichier d'état ftp://ftp.cluster014.hosting.ovh.net:21/www/recettes/_gsdata_/_file_state_v4._gs
+2025-10-19 17:18:26: Sauvegarde du fichier d'état /Volumes/Miaousse/Users/Miaousse/Downloads/recettes/_gsdata_/_file_state_v4._gs
+2025-10-19 17:18:27: == Sync terminée. Temps : 00:00:02, Vitesse : 0,00/s, Elements synchronisés : 4, Erreurs : 0
