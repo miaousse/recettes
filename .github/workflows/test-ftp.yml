@@ -1,0 +1,32 @@
+name: 🔍 Test connexion FTP
+
+on:
+  workflow_dispatch:  # permet de le lancer manuellement
+
+jobs:
+  test-deploy:
+    name: Vérification secrets et FTP
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📂 Charger le code
+        uses: actions/checkout@v4
+
+      - name: 🧩 Vérifier les secrets disponibles
+        run: |
+          echo "Serveur: ${{ secrets.FTP_SERVER }}"
+          echo "Utilisateur: ${{ secrets.FTP_USERNAME }}"
+          echo "::add-mask::${{ secrets.FTP_PASSWORD }}"
+          echo "✅ Les secrets sont détectés."
+
+      - name: 🚀 Test de connexion FTP (dry-run)
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: www/recettes/
+          dry-run: true
+          protocol: ftps
+          timeout: 600
+
